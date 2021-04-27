@@ -17,6 +17,7 @@
 set -o errexit
 set -o nounset
 set -o pipefail
+set -x
 
 source $(dirname $0)/../vendor/knative.dev/hack/codegen-library.sh
 
