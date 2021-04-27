@@ -25,7 +25,6 @@ else
   exit
 fi
 
-exit 1
 export GOPATH=$(go_mod_gopath_hack)
 export GOBIN=${GOPATH}/bin # Set GOBIN explicitly as deepcopy-gen is installed by go install.
 export MODULE_NAME=$(go_mod_module_name)
